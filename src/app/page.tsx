@@ -6,6 +6,8 @@ import { IconCloudDemo } from "@/components/Interactive";
 import SignUp from "@/components/Signup";
 import { RippleDemo } from "@/components/Ripple";
 import ParticlesDemo from "@/components/Particles";
+import { OrbitingCirclesDemo } from "@/components/Orbit";
+import { AnimatedBeamMultipleOutputDemo } from "@/components/animatedBeam";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <SignUp />
       <RippleDemo />
       <ParticlesDemo />
+      <OrbitingCirclesDemo />
+      <AnimatedBeamMultipleOutputDemo />
     </>
   );
 }
