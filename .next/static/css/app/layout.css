@@ -657,6 +657,10 @@ video {
   width: 2.5rem;
   height: 2.5rem;
 }
+.size-full {
+  width: 100%;
+  height: 100%;
+}
 .h-10 {
   height: 2.5rem;
 }
@@ -745,6 +749,19 @@ video {
 .transform-gpu {
   transform: translate3d(var(--tw-translate-x), var(--tw-translate-y), 0) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+@keyframes ripple {
+
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+}
+.animate-ripple {
+  animation: ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite;
+}
 .cursor-pointer {
   cursor: pointer;
 }
@@ -807,6 +824,9 @@ video {
 .rounded-2xl {
   border-radius: 1rem;
 }
+.rounded-full {
+  border-radius: 9999px;
+}
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -844,6 +864,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-white\/5 {
+  background-color: rgb(255 255 255 / 0.05);
+}
 .bg-\[radial-gradient\(circle_at_50\%_200\%\2c rgba\(0\2c 0\2c 0\2c 0\.2\)\2c rgba\(255\2c 255\2c 255\2c 0\)\)\] {
   background-image: radial-gradient(circle at 50% 200%,rgba(0,0,0,0.2),rgba(255,255,255,0));
 }
@@ -855,8 +878,20 @@ video {
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
+.from-\[\#ffd319\] {
+  --tw-gradient-from: #ffd319 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 211 25 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.via-\[\#ff2975\] {
+  --tw-gradient-to: rgb(255 41 117 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #ff2975 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
 .to-gray-300\/80 {
   --tw-gradient-to: rgb(209 213 219 / 0.8) var(--tw-gradient-to-position);
+}
+.to-\[\#8c1eff\] {
+  --tw-gradient-to: #8c1eff var(--tw-gradient-to-position);
 }
 .bg-clip-text {
   -webkit-background-clip: text;
@@ -913,6 +948,10 @@ video {
 .text-center {
   text-align: center;
 }
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
@@ -933,6 +972,10 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
 .font-medium {
   font-weight: 500;
 }
@@ -942,11 +985,17 @@ video {
 .font-semibold {
   font-weight: 600;
 }
+.font-bold {
+  font-weight: 700;
+}
 .leading-none {
   line-height: 1;
 }
 .tracking-tight {
   letter-spacing: -0.025em;
+}
+.tracking-tighter {
+  letter-spacing: -0.05em;
 }
 .text-gray-500 {
   --tw-text-opacity: 1;
@@ -992,6 +1041,11 @@ video {
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
 .outline {
   outline-style: solid;
 }
@@ -1032,11 +1086,18 @@ video {
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.\[--i\:\$\{i\}\] {
+  --i: ${i};
+}
 .\[box-shadow\:0_0_0_1px_rgba\(0\2c 0\2c 0\2c \.03\)\2c 0_2px_4px_rgba\(0\2c 0\2c 0\2c \.05\)\2c 0_12px_24px_rgba\(0\2c 0\2c 0\2c \.05\)\] {
   box-shadow: 0 0 0 1px rgba(0,0,0,.03),0 2px 4px rgba(0,0,0,.05),0 12px 24px rgba(0,0,0,.05);
 }
 .\[contain\:layout_paint_size\] {
   contain: layout paint size;
+}
+.\[mask-image\:linear-gradient\(to_bottom\2c white\2c transparent\)\] {
+  -webkit-mask-image: linear-gradient(to bottom,white,transparent);
+          mask-image: linear-gradient(to bottom,white,transparent);
 }
 .\[mask-image\:radial-gradient\(transparent\2c white\)\] {
   -webkit-mask-image: radial-gradient(transparent,white);

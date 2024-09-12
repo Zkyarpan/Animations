@@ -4,16 +4,20 @@ import { AnimatedListDemo } from "@/components/AnimateList";
 import { GlobeDemo } from "@/components/globe";
 import { IconCloudDemo } from "@/components/Interactive";
 import SignUp from "@/components/Signup";
+import { RippleDemo } from "@/components/Ripple";
+import ParticlesDemo from "@/components/Particles";
 
 export default function Home() {
   return (
     <>
-      <MainSection />
-      <BentoDemo />
-      <AnimatedListDemo />
-      <GlobeDemo />
+      {/* <MainSection /> */}
+      {/* <BentoDemo /> */}
+      {/* <AnimatedListDemo />
+      <GlobeDemo /> */}
       <IconCloudDemo />
       <SignUp />
+      <RippleDemo />
+      <ParticlesDemo />
     </>
   );
 }
