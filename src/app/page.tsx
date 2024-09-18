@@ -8,6 +8,7 @@ import { RippleDemo } from "@/components/Ripple";
 import ParticlesDemo from "@/components/Particles";
 import { OrbitingCirclesDemo } from "@/components/Orbit";
 import { AnimatedBeamMultipleOutputDemo } from "@/components/animatedBeam";
+import { BackgroundBeamsWithCollisionDemo } from "../components/BackgroundBeam";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       {/* <BentoDemo /> */}
       {/* <AnimatedListDemo />
       <GlobeDemo /> */}
+      <BackgroundBeamsWithCollisionDemo />
       <IconCloudDemo />
       <SignUp />
       <RippleDemo />
