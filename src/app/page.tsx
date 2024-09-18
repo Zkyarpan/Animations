@@ -6,10 +6,12 @@ import ParticlesDemo from "@/components/Particles";
 import { OrbitingCirclesDemo } from "@/components/Orbit";
 import { AnimatedBeamMultipleOutputDemo } from "@/components/animatedBeam";
 import { BackgroundBeamsWithCollisionDemo } from "../components/BackgroundBeam";
+import { SparklesPreview } from "../components/Sparkles";
 
 export default function Home() {
   return (
     <>
+      <SparklesPreview />
       <BackgroundBeamsWithCollisionDemo />
       <IconCloudDemo />
       <GlobeDemo />
