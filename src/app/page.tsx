@@ -7,6 +7,7 @@ import { OrbitingCirclesDemo } from "@/components/Orbit";
 import { AnimatedBeamMultipleOutputDemo } from "@/components/animatedBeam";
 import { BackgroundBeamsWithCollisionDemo } from "../components/BackgroundBeam";
 import { SparklesPreview } from "../components/Sparkles";
+import { TextRevealCardPreview } from '../components/RevealText';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <ParticlesDemo />
       <OrbitingCirclesDemo />
       <AnimatedBeamMultipleOutputDemo />
+      <TextRevealCardPreview/>
     </>
   );
 }
