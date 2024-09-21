@@ -9,6 +9,7 @@ import { BackgroundBeamsWithCollisionDemo } from "../components/BackgroundBeam";
 import { SparklesPreview } from "../components/Sparkles";
 import { TextRevealCardPreview } from "../components/RevealText";
 import { MacbookScrollDemo } from "../components/MacbookScrool";
+import { FloatingDockDemo } from "@/components/FloatingDock";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <SignUp />
       <RippleDemo />
       <ParticlesDemo />
+      <FloatingDockDemo />
       <OrbitingCirclesDemo />
       <AnimatedBeamMultipleOutputDemo />
       <TextRevealCardPreview />
