@@ -9,20 +9,20 @@ import { BackgroundBeamsWithCollisionDemo } from "../components/BackgroundBeam";
 import { SparklesPreview } from "../components/Sparkles";
 import { TextRevealCardPreview } from "../components/RevealText";
 import { MacbookScrollDemo } from "../components/MacbookScrool";
-import { FloatingDockDemo } from "@/components/FloatingDock";
+import { FloatingDockDemo } from "@/components/Dock";
 
 export default function Home() {
   return (
     <>
       <SparklesPreview />
       <BackgroundBeamsWithCollisionDemo />
+      <FloatingDockDemo />
       <MacbookScrollDemo />
       <IconCloudDemo />
       <GlobeDemo />
       <SignUp />
       <RippleDemo />
       <ParticlesDemo />
-      <FloatingDockDemo />
       <OrbitingCirclesDemo />
       <AnimatedBeamMultipleOutputDemo />
       <TextRevealCardPreview />
