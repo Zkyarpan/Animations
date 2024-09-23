@@ -1,4 +1,4 @@
-// File: D:\Aceternity UI\my-app\src\app\layout.tsx
+// File: D:\Animations\app\src\app\layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
