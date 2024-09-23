@@ -10,10 +10,12 @@ import { SparklesPreview } from "../components/Sparkles";
 import { TextRevealCardPreview } from "../components/RevealText";
 import { MacbookScrollDemo } from "../components/MacbookScrool";
 import { FloatingDockDemo } from "@/components/Dock";
+import { AnimatedGradientTextDemo } from "@/components/AnimatedText";
 
 export default function Home() {
   return (
     <>
+      <AnimatedGradientTextDemo />
       <SparklesPreview />
       <BackgroundBeamsWithCollisionDemo />
       <FloatingDockDemo />
