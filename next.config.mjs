@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    outputStandalone: true,
+  },
   images: {
-    domains: ['assets.aceternity.com'], 
+    domains: ["assets.aceternity.com"],
   },
 };
 
