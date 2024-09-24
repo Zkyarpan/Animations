@@ -11,6 +11,8 @@ import { TextRevealCardPreview } from "../components/RevealText";
 import { MacbookScrollDemo } from "../components/MacbookScrool";
 import { FloatingDockDemo } from "@/components/Dock";
 import { AnimatedGradientTextDemo } from "@/components/AnimatedText";
+import { FollowingPointerDemo } from "../components/FollowingPointer";
+import { WobbleCardDemo } from "../components/Card";
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
       <FloatingDockDemo />
       <MacbookScrollDemo />
       <IconCloudDemo />
+      <FollowingPointerDemo />
       <GlobeDemo />
       <SignUp />
       <RippleDemo />
@@ -28,6 +31,7 @@ export default function Home() {
       <OrbitingCirclesDemo />
       <AnimatedBeamMultipleOutputDemo />
       <TextRevealCardPreview />
+      <WobbleCardDemo />
     </>
   );
 }
