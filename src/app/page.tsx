@@ -13,10 +13,12 @@ import { FloatingDockDemo } from "@/components/Dock";
 import { AnimatedGradientTextDemo } from "@/components/AnimatedText";
 import { FollowingPointerDemo } from "../components/FollowingPointer";
 import { WobbleCardDemo } from "../components/Card";
+import { GridBackgroundDemo } from "@/components/Dotbackground";
 
 export default function Home() {
   return (
     <>
+      <GridBackgroundDemo />
       <AnimatedGradientTextDemo />
       <SparklesPreview />
       <BackgroundBeamsWithCollisionDemo />
