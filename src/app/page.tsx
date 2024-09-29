@@ -36,6 +36,7 @@ export default function Home() {
       <AnimatedBeamMultipleOutputDemo />
       <TextRevealCardPreview />
       <WobbleCardDemo />
+      <GlobeDemo/>
     </>
   );
 }

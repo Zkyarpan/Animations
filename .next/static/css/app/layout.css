@@ -1,6 +1,6 @@
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.13_@babel+core@7.25.2_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/.pnpm/next@14.2.13_@babel+core@7.25.2_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/.pnpm/next@14.2.13_@babel+core@7.25.2_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
   font-family: '__Inter_36bd41';
@@ -67,11 +67,117 @@
 }.__className_36bd41 {font-family: '__Inter_36bd41', '__Inter_Fallback_36bd41';font-style: normal
 }
 
-/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************/
-/*
-! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.13_@babel+core@7.25.2_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/.pnpm/next@14.2.13_@babel+core@7.25.2_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.12 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -715,114 +821,6 @@ video {
   --rose-900: #881337;
   --rose-950: #4c0519;
 }
-
-*, ::before, ::after {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
-}
-
-::backdrop {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-gradient-from-position:  ;
-  --tw-gradient-via-position:  ;
-  --tw-gradient-to-position:  ;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
-  --tw-contain-size:  ;
-  --tw-contain-layout:  ;
-  --tw-contain-paint:  ;
-  --tw-contain-style:  ;
-}
 .container {
   width: 100%;
 }
@@ -895,6 +893,9 @@ video {
 }
 .-bottom-10 {
   bottom: -2.5rem;
+}
+.-bottom-20 {
+  bottom: -5rem;
 }
 .-left-\[22px\] {
   left: -22px;
@@ -971,6 +972,9 @@ video {
 .z-20 {
   z-index: 20;
 }
+.z-40 {
+  z-index: 40;
+}
 .z-50 {
   z-index: 50;
 }
@@ -1026,6 +1030,9 @@ video {
 }
 .mt-2 {
   margin-top: 0.5rem;
+}
+.mt-20 {
+  margin-top: 5rem;
 }
 .mt-4 {
   margin-top: 1rem;
@@ -1130,6 +1137,12 @@ video {
 .h-6 {
   height: 1.5rem;
 }
+.h-60 {
+  height: 15rem;
+}
+.h-72 {
+  height: 18rem;
+}
 .h-8 {
   height: 2rem;
 }
@@ -1168,6 +1181,9 @@ video {
 }
 .h-\[6px\] {
   height: 6px;
+}
+.h-auto {
+  height: auto;
 }
 .h-full {
   height: 100%;
@@ -1235,6 +1251,9 @@ video {
 }
 .w-80 {
   width: 20rem;
+}
+.w-96 {
+  width: 24rem;
 }
 .w-\[10\%\] {
   width: 10%;
@@ -1320,6 +1339,9 @@ video {
 }
 .max-w-lg {
   max-width: 32rem;
+}
+.max-w-md {
+  max-width: 28rem;
 }
 .max-w-sm {
   max-width: 24rem;
@@ -1416,6 +1438,11 @@ video {
 }
 .cursor-pointer {
   cursor: pointer;
+}
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 .resize {
   resize: both;
@@ -1558,6 +1585,9 @@ video {
 }
 .border-none {
   border-style: none;
+}
+.border-black\/\[0\.1\] {
+  border-color: rgb(0 0 0 / 0.1);
 }
 .border-gray-200 {
   --tw-border-opacity: 1;
@@ -1823,6 +1853,9 @@ video {
 }
 .to-transparent {
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+.to-white {
+  --tw-gradient-to: #fff var(--tw-gradient-to-position);
 }
 .to-95\% {
   --tw-gradient-to-position: 95%;
@@ -2108,6 +2141,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
 }
+.text-neutral-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
 .text-neutral-700 {
   --tw-text-opacity: 1;
   color: rgb(64 64 64 / var(--tw-text-opacity));
@@ -2259,6 +2296,9 @@ video {
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.ease-linear {
+  transition-timing-function: linear;
+}
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
@@ -2365,6 +2405,9 @@ video {
 }
 .\[text-shadow\:0_0_rgba\(0\2c 0\2c 0\2c 0\.1\)\] {
   text-shadow: 0 0 rgba(0,0,0,0.1);
+}
+.\[transform-style\:preserve-3d\] {
+  transform-style: preserve-3d;
 }
 .\[translate\:0_0\] {
   translate: 0 0;
@@ -2511,6 +2554,13 @@ video {
 }
 
 
+.group\/card:hover .group-hover\/card\:shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+
 .group:hover .group-hover\:shadow-\[inset_0_-6px_10px_\#ffffff3f\] {
   --tw-shadow: inset 0 -6px 10px #ffffff3f;
   --tw-shadow-colored: inset 0 -6px 10px var(--tw-shadow-color);
@@ -2540,6 +2590,10 @@ video {
   .sm\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .sm\:w-\[30rem\] {
+    width: 30rem;
   }
 
   .sm\:scale-50 {
@@ -2591,6 +2645,14 @@ video {
     height: 40rem;
   }
 
+  .md\:h-auto {
+    height: auto;
+  }
+
+  .md\:h-full {
+    height: 100%;
+  }
+
   .md\:max-w-lg {
     max-width: 32rem;
   }
@@ -2618,6 +2680,11 @@ video {
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .md\:text-xl {
@@ -2743,6 +2810,10 @@ video {
     border-color: rgb(23 23 23 / var(--tw-border-opacity));
   }
 
+  .dark\:border-white\/\[0\.2\] {
+    border-color: rgb(255 255 255 / 0.2);
+  }
+
   .dark\:bg-\[\#0B0B0F\] {
     --tw-bg-opacity: 1;
     background-color: rgb(11 11 15 / var(--tw-bg-opacity));
@@ -2774,6 +2845,11 @@ video {
 
   .dark\:bg-transparent {
     background-color: transparent;
+  }
+
+  .dark\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
   .dark\:bg-white\/10 {
@@ -2824,6 +2900,11 @@ video {
     color: rgb(0 0 0 / var(--tw-text-opacity));
   }
 
+  .dark\:text-neutral-200 {
+    --tw-text-opacity: 1;
+    color: rgb(229 229 229 / var(--tw-text-opacity));
+  }
+
   .dark\:text-neutral-300 {
     --tw-text-opacity: 1;
     color: rgb(212 212 212 / var(--tw-text-opacity));
@@ -2861,8 +2942,24 @@ video {
     box-shadow: 0 -20px 80px -20px #ffffff1f inset;
   }
 
+  .dark\:hover\:shadow-2xl:hover {
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+  .dark\:hover\:shadow-emerald-500\/\[0\.1\]:hover {
+    --tw-shadow-color: rgb(16 185 129 / 0.1);
+    --tw-shadow: var(--tw-shadow-colored);
+  }
+
   .group:hover .group-hover\:dark\:bg-neutral-800\/10 {
     background-color: rgb(38 38 38 / 0.1);
   }
+}
+
+
+.\[\&\>\*\]\:\[transform-style\:preserve-3d\]>* {
+  transform-style: preserve-3d;
 }
 
