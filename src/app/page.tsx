@@ -15,6 +15,7 @@ import { FollowingPointerDemo } from "../components/FollowingPointer";
 import { WobbleCardDemo } from "../components/Card";
 import { GridBackgroundDemo } from "@/components/Dotbackground";
 import { ThreeDCardDemo } from "@/components/3Card";
+import React from "react";
 
 export default function Home() {
   return (
