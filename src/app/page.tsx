@@ -17,18 +17,19 @@ import { GridBackgroundDemo } from "@/components/Dotbackground";
 import { ThreeDCardDemo } from "@/components/3Card";
 import React from "react";
 import { MultiStepLoaderDemo } from '../components/MultiStepLoder';
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
       <GridBackgroundDemo />
       <AnimatedGradientTextDemo />
+      <MultiStepLoaderDemo/>
       <SparklesPreview />
       <BackgroundBeamsWithCollisionDemo />
       <FloatingDockDemo />
       <MacbookScrollDemo />
       <IconCloudDemo />
-      <MultiStepLoaderDemo/>
       <ThreeDCardDemo/>
       <FollowingPointerDemo />
       <GlobeDemo />
@@ -40,6 +41,7 @@ export default function Home() {
       <TextRevealCardPreview />
       <WobbleCardDemo />
       <GlobeDemo/>
+      <Footer/>
     </>
   );
 }

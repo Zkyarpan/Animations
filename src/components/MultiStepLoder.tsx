@@ -33,7 +33,7 @@ const loadingStates = [
 export function MultiStepLoaderDemo() {
   const [loading, setLoading] = useState(false);
   return (
-    <div className="w-full h-[60vh] flex items-center justify-center">
+    <div className="w-full h-[60vh] bg-black flex items-center justify-center">
       {/* Core Loader Modal */}
       <Loader loadingStates={loadingStates} loading={loading} duration={2000} />
 
