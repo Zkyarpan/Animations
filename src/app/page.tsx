@@ -16,6 +16,7 @@ import { WobbleCardDemo } from "../components/Card";
 import { GridBackgroundDemo } from "@/components/Dotbackground";
 import { ThreeDCardDemo } from "@/components/3Card";
 import React from "react";
+import { MultiStepLoaderDemo } from '../components/MultiStepLoder';
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <FloatingDockDemo />
       <MacbookScrollDemo />
       <IconCloudDemo />
+      <MultiStepLoaderDemo/>
       <ThreeDCardDemo/>
       <FollowingPointerDemo />
       <GlobeDemo />
