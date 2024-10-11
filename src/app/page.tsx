@@ -16,21 +16,25 @@ import { WobbleCardDemo } from "../components/Card";
 import { GridBackgroundDemo } from "@/components/Dotbackground";
 import { ThreeDCardDemo } from "@/components/3Card";
 import React from "react";
-import { MultiStepLoaderDemo } from '../components/MultiStepLoder';
+import { MultiStepLoaderDemo } from "../components/MultiStepLoder";
 import Footer from "@/components/Footer";
+// import Navbar from "@/components/Navbar";
+import HomePage from "@/components/Home";
 
 export default function Home() {
   return (
     <>
+      {/* <Navbar/> */}
+      <HomePage />
       <GridBackgroundDemo />
       <AnimatedGradientTextDemo />
-      <MultiStepLoaderDemo/>
+      <MultiStepLoaderDemo />
       <SparklesPreview />
       <BackgroundBeamsWithCollisionDemo />
       <FloatingDockDemo />
       <MacbookScrollDemo />
       <IconCloudDemo />
-      <ThreeDCardDemo/>
+      <ThreeDCardDemo />
       <FollowingPointerDemo />
       <GlobeDemo />
       <SignUp />
@@ -40,8 +44,8 @@ export default function Home() {
       <AnimatedBeamMultipleOutputDemo />
       <TextRevealCardPreview />
       <WobbleCardDemo />
-      <GlobeDemo/>
-      <Footer/>
+      <GlobeDemo />
+      <Footer />
     </>
   );
 }
