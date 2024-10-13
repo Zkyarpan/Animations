@@ -1,5 +1,5 @@
-import Header from './Header';
-import Form from './Form';
+import Header from "./Header";
+import Form from "./Form";
 
 export default function Home() {
   return (
@@ -13,7 +13,8 @@ export default function Home() {
           <h2 className="text-gray-gray7 font-normal text-lg">
             <button>Showcase your work,</button>
             <button>launch side projects,</button>
-            <button>find jobs,</button> and connect with the most (in)credible people.
+            <button>find jobs,</button> and connect with the most (in)credible
+            people.
           </h2>
         </div>
         <Form />
