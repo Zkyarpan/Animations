@@ -20,6 +20,7 @@ import { MultiStepLoaderDemo } from "../components/MultiStepLoder";
 import Footer from "@/components/Footer";
 // import Navbar from "@/components/Navbar";
 import HomePage from "@/components/Home";
+import { AnimatedPinDemo } from "@/components/3Dpin";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <GridBackgroundDemo />
       <AnimatedGradientTextDemo />
       <MultiStepLoaderDemo />
+      <AnimatedPinDemo/>
       <SparklesPreview />
       <BackgroundBeamsWithCollisionDemo />
       <FloatingDockDemo />
