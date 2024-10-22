@@ -22,6 +22,8 @@ import Footer from "@/components/Footer";
 import HomePage from "@/components/Home";
 import { AnimatedPinDemo } from "@/components/3Dpin";
 import FooterSec from "@/components/FooterSec";
+import FAQ from "@/components/FAQ";
+import NotFoundPage from "@/components/404NotFound";
 
 export default function Home() {
   return (
@@ -33,6 +35,7 @@ export default function Home() {
       <MultiStepLoaderDemo />
       <AnimatedPinDemo/>
       <SparklesPreview />
+      <FAQ/>
       <BackgroundBeamsWithCollisionDemo />
       <FooterSec/>
       <FloatingDockDemo />
@@ -49,6 +52,7 @@ export default function Home() {
       <TextRevealCardPreview />
       <WobbleCardDemo />
       <GlobeDemo />
+      <NotFoundPage/>
       <Footer />
     </>
   );
