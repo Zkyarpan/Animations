@@ -21,6 +21,7 @@ import Footer from "@/components/Footer";
 // import Navbar from "@/components/Navbar";
 import HomePage from "@/components/Home";
 import { AnimatedPinDemo } from "@/components/3Dpin";
+import FooterSec from "@/components/FooterSec";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       <AnimatedPinDemo/>
       <SparklesPreview />
       <BackgroundBeamsWithCollisionDemo />
+      <FooterSec/>
       <FloatingDockDemo />
       <MacbookScrollDemo />
       <IconCloudDemo />
