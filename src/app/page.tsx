@@ -24,11 +24,13 @@ import { AnimatedPinDemo } from "@/components/3Dpin";
 import FooterSec from "@/components/FooterSec";
 import FAQ from "@/components/FAQ";
 import NotFoundPage from "@/components/404NotFound";
+import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
     <>
       {/* <Navbar/> */}
+      <Nav/>
       <HomePage />
       <GridBackgroundDemo />
       <AnimatedGradientTextDemo />
