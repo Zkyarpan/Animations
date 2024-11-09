@@ -30,16 +30,16 @@ export default function Home() {
   return (
     <>
       {/* <Navbar/> */}
-      <Nav/>
+      <Nav />
       <HomePage />
       <GridBackgroundDemo />
       <AnimatedGradientTextDemo />
       <MultiStepLoaderDemo />
-      <AnimatedPinDemo/>
+      <AnimatedPinDemo />
       <SparklesPreview />
-      <FAQ/>
+      <FAQ />
       <BackgroundBeamsWithCollisionDemo />
-      <FooterSec/>
+      <FooterSec />
       <FloatingDockDemo />
       <MacbookScrollDemo />
       <IconCloudDemo />
@@ -54,7 +54,7 @@ export default function Home() {
       <TextRevealCardPreview />
       <WobbleCardDemo />
       <GlobeDemo />
-      <NotFoundPage/>
+      <NotFoundPage />
       <Footer />
     </>
   );
